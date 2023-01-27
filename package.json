@@ -1,0 +1,30 @@
+{
+  "name": "ohio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "static-site",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thinkingjet/ohio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thinkingjet/ohio/issues"
+  },
+  "homepage": "https://github.com/thinkingjet/ohio#readme",
+  "dependencies": {
+    "create-static-web": "^0.9.5",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "static-site": "^1.3.5"
+  }
+}
