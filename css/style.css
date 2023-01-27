@@ -1,0 +1,107 @@
+/*
+ * Created 2014 Triangle717
+ * <http://Triangle717.WordPress.com/>
+ *
+ * Source code licensed under The MIT License
+ * <http://opensource.org/licenses/MIT/>
+ *
+ * Dedicated to the good folks at Rock Raiders United
+ * <http://www.rockraidersunited.org/>
+ */
+
+
+::-moz-selection {
+  text-shadow: none;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+::selection {
+  text-shadow: none;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.block-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  min-width: 320px;
+  margin: 0;
+}
+
+body {
+  margin-bottom: 8em;
+  background-color: #696B60;
+  background-image: url("../img/bg.jpg");
+  background-repeat: repeat;
+  font-family: "Poller One", "Arial", sans-serif;
+  color: #fff;
+  text-shadow: 2px 0 2px #000;
+}
+
+a {
+  color: #e8dddd;
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+
+/* "Feed Rock Raiders [ohio_imges]?" */
+.ohio_img {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 0.2s ease-out;
+          transition: -webkit-transform, -ms-transform, transform 0.2s ease-out;
+}
+.ohio_img:active {
+  -webkit-transform: scale(0.98);
+      -ms-transform: scale(0.98);
+          transform: scale(0.98);
+}
+
+/**
+ * Footer
+ * http://mystrd.at/modern-clean-css-sticky-footer
+ */
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 7.8em;
+  width: 100%;
+  font-size: 0.85em;
+  text-align: center;
+}
+
+#timer-para {
+  font-size: 1.3em;
+  position: relative;
+  top: -10px;
+  z-index: 2;
+}
+
+/* Small background behind timer text */
+#timer-wrapper {
+  display: inline-block;
+  margin-top: 5px;
+  width: 250px;
+  padding: 0 10px 0 5px;
+  border: 2px solid #808080;
+  background-color: #c7c7c7;
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+          box-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+  z-index: -1;
+}
+
+/* Timer text*/
+#timer {
+  font-size: 1.6em;
+  font-weight: 700;
+}
